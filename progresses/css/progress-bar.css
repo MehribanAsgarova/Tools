@@ -1,0 +1,52 @@
+.content{
+    margin: 30px 0px;
+}
+    .content h5{
+        color: white!important;
+    }
+    .content i{
+        float: left;
+        font-size: 50px;
+        padding: 12px 18px 18px;
+    }
+    .content p{
+        margin-bottom:-5px!important;
+    }
+    .content .progress{
+        width: 40px!important;
+        height:30px!important;
+        line-height: 30px;
+        text-align: center;
+        color: blue;
+        display:inline-block;
+        background: white;
+        border-radius: 5px;
+        font-weight:700;
+        float: right;
+    }
+    .content .triangle_down{
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        border-top: 8px solid white;
+        float: right;
+        margin-right: 12px; 
+        margin-top: -20px;
+    }
+    .content h1{
+        font-size: 40px;
+        font-style: normal;
+        line-height: 46px;  
+        margin-top: 60px !important;
+    }
+    .content .progress_defalut{
+        width: 80%;
+        height: 8px;
+        float: right;
+        background: grey;
+    }
+    .content .progress_main{
+        width: 0%;
+        transition: 2s;
+        height:100%;
+        background: black;
+    }

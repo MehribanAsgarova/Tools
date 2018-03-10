@@ -1,0 +1,85 @@
+.view hr {
+    margin-top: -2px !important;
+    border-top: 2px solid #eee !important; 
+}
+  .view .tab-pane p {
+    text-align: center !important;
+    margin: 0 !important; 
+}
+  .view .tab-pane ul {
+    margin-top: 40px !important;
+    margin-left: -38px; 
+}
+    .view .tab-pane ul li {
+      margin-bottom: 15px;
+      line-height: 26px;
+      list-style: none; 
+    }
+      .view .tab-pane ul li span {
+        color: #333333;
+        line-height: 26px;
+        font-weight: 600; 
+    }
+      .view .tab-pane ul li i {
+        font-size: 30px;
+        margin-right: 10px; 
+    }
+  .view .tab-pane .span {
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 24px;
+    color: #666666; 
+}
+  .view h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    margin-bottom: 25px !important;
+    font-size: 40px;
+    font-style: normal;
+    line-height: 46px;
+    color: #333333;
+    margin-top: 0px; 
+}
+  .view img {
+    width: 85%; 
+}
+  .view .nav {
+    display: flex;
+    justify-content: center; 
+}
+    .view .nav a {
+      padding: 30px 0px; 
+    }
+      .view .nav a:hover {
+        background: transparent !important; 
+    }
+    .view .nav i {
+      color: #666666;
+      font-size: 50px;
+      margin-right: 20px;
+      vertical-align: middle;
+      text-align: right; 
+    }
+    .view .nav span {
+      color: #666666;
+      font-size: 18px;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 600;
+      line-height: 40px;
+      vertical-align: sub;
+      text-align: left; 
+    }
+  .view .active a {
+    color: #333333 !important;
+    background: transparent !important;
+    border-radius: 0px !important;
+    border-bottom: 2px solid #4ac4f3; 
+}
+  .view .active span {
+    color: #333333; 
+}
+  .view .active i {
+    color: #4ac4f3; 
+}

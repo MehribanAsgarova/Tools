@@ -1,0 +1,112 @@
+.audio {
+    color: white;
+}
+
+.audio .col-md-12 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.audio ol {
+    padding: 0px;
+}
+
+.audio ol li {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    list-style: none;
+}
+
+.audio .container {
+    margin-top: 30px;
+    overflow: hidden;
+}
+
+.audio .container .row {
+    background: #1c1d2c;
+    height: 434px;
+    overflow-y: scroll;
+    font-family: 'Titillium Web';
+}
+
+.audio .container .row .col-md-12.col-sm-12 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.audio .container .row .col-md-12.col-sm-12 .col-md-4.col-sm-4 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.audio .container .row h3 {
+    font-weight: 400;
+    line-height: 28px;
+    text-transform: uppercase;
+    padding-left: 30px;
+}
+
+.audio .container .row span {
+    font-size: 22px;
+    font-weight: 100;
+}
+
+.audio .container .row .buttons {
+    padding-top: 13px;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+
+.audio .container .row .wraper {
+    margin: 10px auto;
+    display: inline-block;
+}
+
+.audio .container .row nav {
+    background: #1c1d2c;
+    padding-bottom: 3px;
+}
+
+.audio .container .row .defaultBar {
+    position: relative;
+    background: #606060;
+    height: 5px;
+}
+
+.audio .container .row .progressBar {
+    position: absolute;
+    height: 5px;
+    background: #3498db;
+    width: 0px;
+}
+
+.audio .container .row .playButton {
+    background: #fafafa;
+    border: none;
+    height: 32px;
+    width: 32px;
+    background: url(../img/play.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.audio .container .row .muteButton {
+    background: #fafafa;
+    border: none;
+    height: 32px;
+    width: 32px;
+    background: url(../img/speaker.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.audio .container .row .muteButton:active,
+.audio .container .row .playButton:active {
+    position: relative;
+    top: 2px;
+    outline: none;
+}
+
+.audio .container p {
+    color: white;
+}
